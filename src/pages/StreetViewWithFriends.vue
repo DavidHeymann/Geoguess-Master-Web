@@ -274,7 +274,7 @@
             this.$refs.map.startNextRound()
 
             // Countdown timer starts
-            this.timeLimitation = snapshot.child('timeLimitation').val() * 60
+            this.timeLimitation = snapshot.child('timeLimitation').val()
 
             if (this.timeLimitation != 0) {
               if (!this.hasTimerStarted) {

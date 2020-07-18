@@ -109,7 +109,7 @@
       },
       setTimeLimitation(timeLimitation) {
         this.room.update({
-          timeLimitation: timeLimitation
+          timeLimitation: +(timeLimitation.mm) * 60 + +(timeLimitation.ss) 
         }, (error) => {
           if (!error) {
             this.currentComponent = 'playerName'
