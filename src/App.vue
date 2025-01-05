@@ -1,15 +1,15 @@
 <template>
-  <v-app>
-    <h1>Under maintenance</h1>
-    <h3>We'll be back soon</h3>
-  </v-app>
+  <div class="maintenance">
+    <h1>In maintenance</h1>
+  </div>
 </template>
 
-<script>
-export default {
-  name: 'App',
-  data: () => ({
-    //
-  }),
-};
-</script>
+<style>
+.maintenance {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+</style>
