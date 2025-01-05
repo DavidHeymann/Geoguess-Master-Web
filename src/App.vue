@@ -1,7 +1,9 @@
 <template>
-  <div class="maintenance">
-    <h1>In maintenance</h1>
-  </div>
+  <v-app> <!-- Keep v-app since you're using Vuetify -->
+    <div class="maintenance">
+      <h1>In maintenance</h1>
+    </div>
+  </v-app>
 </template>
 
 <style>
